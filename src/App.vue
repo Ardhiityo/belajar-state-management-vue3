@@ -11,13 +11,19 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { ref, reactive, readonly } from "vue";
 
 // const red = ref(0);
 // const green = ref(0);
 // const blue = ref(0);
 
-const color = ref({
+// const color = ref({
+//   red: 0,
+//   green: 0,
+//   blue: 0,
+// });
+
+const color = reactive({
   red: 0,
   green: 0,
   blue: 0,
