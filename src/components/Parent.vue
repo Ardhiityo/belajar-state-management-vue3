@@ -1,6 +1,5 @@
 <script setup>
 import Child from "./Child.vue";
-import { ref } from "vue";
 import useNumbers from "@/composable/useNumbers";
 
 const { numbers, addNumber } = useNumbers();
