@@ -4,11 +4,13 @@
 
 import { useNumbers } from '@/stores/numbers';
 
-const {number} = useNumbers();
+const {number, getNumbers} = useNumbers();
 
 </script>
 
 <template>
   <h1>Great Grand Child</h1>
   {{ number }}
+  <br>
+  {{getNumbers(12) }}
 </template>
